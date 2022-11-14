@@ -1,0 +1,57 @@
+﻿  Bai1.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xutility(1544,1): error C3848: expression having type 'const node_cmp' would lose some const-volatile qualifiers in order to call 'bool node_cmp::operator ()(Node *,Node *)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xutility(1543): message : see reference to function template instantiation 'bool std::_Debug_lt_pred<const node_cmp&,const _Keyty&,const _Kty&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)' being compiled
+          with
+          [
+              _Keyty=Node *,
+              _Kty=Node *,
+              _Pr=const node_cmp &,
+              _Ty1=Node *const &,
+              _Ty2=Node *const &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xtree(1002): message : see reference to function template instantiation 'std::_Tree_find_result<std::_Tree_node<Node *,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::_Find_upper_bound<_Kty>(const _Keyty &) const' being compiled
+          with
+          [
+              _Alloc=std::allocator<Node *>,
+              _Kty=Node *,
+              _Pr=node_cmp,
+              _Keyty=Node *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xtree(1021): message : see reference to function template instantiation 'std::_Tree_find_result<std::_Tree_node<Node *,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::_Find_upper_bound<_Kty>(const _Keyty &) const' being compiled
+          with
+          [
+              _Alloc=std::allocator<Node *>,
+              _Kty=Node *,
+              _Pr=node_cmp,
+              _Keyty=Node *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xtree(1339): message : see reference to function template instantiation 'std::pair<std::_Tree_node<Node *,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::_Emplace<Node*const &>(Node *const &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Node *>,
+              _Kty=Node *,
+              _Pr=node_cmp
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xtree(1339): message : see reference to function template instantiation 'std::pair<std::_Tree_node<Node *,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::_Emplace<Node*const &>(Node *const &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Node *>,
+              _Kty=Node *,
+              _Pr=node_cmp
+          ]
+D:\Study\2020-2021\Học Kì 1\Trí Tuệ Nhân Tạo\Filecode\Buoi2\BaiThucHanh\BaiThucHanh\Bai1.cpp(225): message : see reference to function template instantiation 'std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<Node *>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::insert<true,0>(Node *const &)' being compiled
+          with
+          [
+              _Kty=Node *,
+              _Pr=node_cmp,
+              _Alloc=std::allocator<Node *>
+          ]
+D:\Study\2020-2021\Học Kì 1\Trí Tuệ Nhân Tạo\Filecode\Buoi2\BaiThucHanh\BaiThucHanh\Bai1.cpp(225): message : see reference to function template instantiation 'std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<Node *>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::insert<true,0>(Node *const &)' being compiled
+          with
+          [
+              _Kty=Node *,
+              _Pr=node_cmp,
+              _Alloc=std::allocator<Node *>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xutility(1544,5): error C2056: illegal expression
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xutility(1544,39): error C2056: illegal expression

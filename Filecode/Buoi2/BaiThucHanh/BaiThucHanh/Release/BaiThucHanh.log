@@ -1,0 +1,6 @@
+﻿  Source.cpp
+D:\Study\2020-2021\Học Kì 1\Trí Tuệ Nhân Tạo\Filecode\Buoi2\BaiThucHanh\BaiThucHanh\Source.cpp(171,14): error C2065: 'posx': undeclared identifier
+D:\Study\2020-2021\Học Kì 1\Trí Tuệ Nhân Tạo\Filecode\Buoi2\BaiThucHanh\BaiThucHanh\Source.cpp(171,24): error C2065: 'goalposx': undeclared identifier
+D:\Study\2020-2021\Học Kì 1\Trí Tuệ Nhân Tạo\Filecode\Buoi2\BaiThucHanh\BaiThucHanh\Source.cpp(171,43): error C2065: 'posy': undeclared identifier
+D:\Study\2020-2021\Học Kì 1\Trí Tuệ Nhân Tạo\Filecode\Buoi2\BaiThucHanh\BaiThucHanh\Source.cpp(171,53): error C2065: 'goalposy': undeclared identifier
+D:\Study\2020-2021\Học Kì 1\Trí Tuệ Nhân Tạo\Filecode\Buoi2\BaiThucHanh\BaiThucHanh\Source.cpp(322,31): error C2059: syntax error: '<<'
